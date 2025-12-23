@@ -65,7 +65,7 @@ def get_resource(path=''):
 
 @app.route('/<path:path>', methods=['PUT'])
 def put_resource(path=''):
-    graph = Graph('IOMemory', BNode())
+    graph = Graph(identifier=BNode())
     graph.parse(data=request.data, format=formats[request.mimetype])
     new = False if path in graphs else True
     graphs[path] = graph
