@@ -1,5 +1,6 @@
 click==6.7
 Flask==1.0
 flask-rdf==0.2.1
+Jinja2==2.10.1
 rdflib==4.2.2
 #rdflib-jsonld==0.4.0
