@@ -5,7 +5,7 @@ itsdangerous==2.2.0
 Jinja2==3.1.6
 MarkupSafe==3.0.3
 pyparsing==3.3.1
-rdflib==7.5.0
+rdflib==7.6.0
 rdflib-jsonld==0.6.2
 Werkzeug==3.1.5
 Flask_rdf
